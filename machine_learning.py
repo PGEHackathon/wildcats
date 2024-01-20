@@ -18,3 +18,4 @@ def create_characteristics_plot(interest_dataframe):
                     x=interest_dataframe[interest_dataframe.columns[1]],
                     hue=interest_dataframe[interest_dataframe.columns[2]])
     plt.title(f"{interest_dataframe.columns[0]} over {interest_dataframe.columns[1]}");
+
